@@ -166,6 +166,13 @@ public enum SettingsEnum {
     SPOOF_CLIENT_SHORTS("revanced_spoof_client_shorts", ClientType.IOS.toString(), ReturnType.STRING, true),
     SPOOF_CLIENT_FALLBACK("revanced_spoof_client_fallback", ClientType.ANDROID_TESTSUITE.toString(), ReturnType.STRING, true),
 
+    // Freeze Layout Updates Settings
+    FREEZE_LAYOUT_UPDATES("revanced_freeze_layout_updates", false, ReturnType.BOOLEAN, true),
+    FROZEN_HOT_CONFIG_GROUP("revanced_frozen_hot_config_group", "", ReturnType.STRING),
+    FROZEN_HOT_HASH_DATA("revanced_frozen_hot_hash_data", "", ReturnType.STRING),
+    FROZEN_COLD_CONFIG_GROUP("revanced_frozen_cold_config_group", "", ReturnType.STRING),
+    FROZEN_COLD_HASH_DATA("revanced_frozen_cold_hash_data", "", ReturnType.STRING),
+
     //RYD Settings
     RYD_USER_ID("ryd_userId", null, SharedPrefHelper.SharedPrefNames.RYD, ReturnType.STRING),
     RYD_ENABLED("ryd_enabled", true, SharedPrefHelper.SharedPrefNames.RYD, ReturnType.BOOLEAN),
